@@ -13,12 +13,12 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) {
+        if (!credentials?.email || !credentials?.password || "") {
           throw new Error("Missing Email or password");
         }
 
         try {
-          await connectToDatabse();
+          await connectToDatabase();
           const user = await User.findOne({ email: credentials.email });
           if (!user) {
             throw new Error("No user found with this username");

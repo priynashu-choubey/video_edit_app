@@ -23,9 +23,9 @@ export default withAuth(
           return true;
         }
         if (token) {
-          return true;
+          return true; // return !!token; //shortcut *interesting concept
         }
-        // return !!token; //shortcut *interesting concept
+        return false;
       },
     },
   }
