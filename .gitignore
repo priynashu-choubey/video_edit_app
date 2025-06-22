@@ -178,3 +178,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 >>>>>>> b7b0f0e (installed nextJS app and created models.)
+ 
