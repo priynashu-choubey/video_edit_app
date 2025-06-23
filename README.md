@@ -1,5 +1,5 @@
 
-# video_edit_app
+video_edit_app
 A simple video upload app built with Next.js, Tailwind CSS, and ImageKit.io. Users can upload vertical videos like reels, get instant previews, and see toast notifications. Secure uploads are handled using ImageKit’s signed auth. Perfect for learning media uploads in Next.js.
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
